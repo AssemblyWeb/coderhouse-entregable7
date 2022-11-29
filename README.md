@@ -1,4 +1,4 @@
-# Proyecto final - Primera entrega
+# Entregable 7 - MySQL
 
 E-commerce API Rest
 
