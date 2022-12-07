@@ -1,10 +1,11 @@
 {
-  "name": "4-entregable",
+  "name": "7-entregable",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
+    "db:setup": "node model/ecommerce/create/create.knex.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,13 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "dotenv": "16.0.3",
-    "ejs": "^3.1.8",
+    "ejs": "3.1.8",
+    "knex": "^2.3.0",
     "morgan": "1.10.0",
+    "mysql": "^2.18.1",
     "nodemon": "2.0.20"
   },
   "dependencies": {
     "express": "4.18.2",
-    "socket.io": "4.5.3",
-    "uuid": "^9.0.0"
+    "socket.io": "4.5.3"
   }
 }
